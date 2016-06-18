@@ -1,3 +1,2 @@
-# UI-Projects
-
+# Sample Angular JS 1 UI-Projects
 
