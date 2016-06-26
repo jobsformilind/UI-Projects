@@ -1,0 +1,36 @@
+{
+  "name": "angular-alert-banner",
+  "homepage": "https://github.com/samouss/angular-alert-banner",
+  "authors": [
+    "Samuel Vaillant <samy-07@live.fr>"
+  ],
+  "description": "Angular module for display alert as banner",
+  "main": "dist/angular-alert-banner.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "sample",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  },
+  "devDependencies": {
+    "fontawesome": "~4.3.0",
+    "bootstrap": "~3.3.4"
+  },
+  "_release": "d7b293c7d1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d7b293c7d1bf377d54340f4c93859e5bf554c060"
+  },
+  "_source": "https://github.com/samouss/angular-alert-banner.git",
+  "_target": "*",
+  "_originalSource": "angular-alert-banner"
+}
