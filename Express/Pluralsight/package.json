@@ -1,0 +1,23 @@
+{
+  "name": "Pluralsight",
+  "description": "Pluralsight examples",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Milind",
+  "license": "VIT",
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test",
+    "postinstall": "bower install --config.interactive=false"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "node": "0.0.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^1.9.2",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.11.1"
+  }
+}
