@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  <head>
+    <link rel="stylesheet" href="../lib/bootstrap.css" />
+    <script src="../lib/jquery.js"></script>
+    <script src="../lib/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-controller="MainController" class="container">
+    <label> Directive Demo</label>
+    <user-info-card person="user1" collapsed="true"></user-info-card>
+    <user-info-card person="user2"></user-info-card>
+  </body>
+
+</html>
