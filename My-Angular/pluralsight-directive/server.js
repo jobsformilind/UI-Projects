@@ -11,6 +11,9 @@ console.log('Server started on port : '+port);
 function onRequest(req, res) {
     var urlParts = url.parse(req.url);
     var doc = "."+urlParts.pathname;
+    if(doc === './') {
+    	doc = './index.html';
+    }
     console.log('Request : '+doc);
 
     fs.exists(doc, function(exists) {
